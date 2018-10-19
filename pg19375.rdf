@@ -1,175 +1,204 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/19375">
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19375/19375-8.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na69d583156734014b0ca0134b176323e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-09-25T12:10:36</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60045</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nb16a6580ee5f49278fc7fc868ad6e9c9">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2d13f73505644331b964ab3a7090d094">
+        <rdf:value>DP</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
       </rdf:Description>
-    </dcterms:language>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-09-25</dcterms:issued>
-    <pgterms:marc010>35031134</pgterms:marc010>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4606ef5bfc4a4f35b75b5875d68606fe">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T23:19:18.740977</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88148</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/19375/19375-8.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0126562d7a2a42f5befd8d1fbbf0fa3e">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N8fe1f50c37c74098997c8d2c7b78e8c0">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-09-25T12:10:38</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfb5f71fc2fc54a679e841274b64105c0">
+          <rdf:Description rdf:nodeID="Nc089a8fc5e234e979cbf0b172cfbf44e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-09-25T12:10:38</dcterms:modified>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26211</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N49166f0f386749829cf39839988337a4">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.html.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66902</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:42:53.622406</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3140821e3d8e476f9c0e8c4bfa9e92eb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc010>35031134</pgterms:marc010>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:42:53.705423</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30176</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne1ea9b5414a844c1a95e7b3d1fc548f8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T23:19:19.324408</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36762</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.txt.utf-8">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:42:53.540406</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1087aaf97ed04d18b0147ea4069a5d30">
+          <rdf:Description rdf:nodeID="Nf8e21263a2f34b1baea31b3e6e304dfe">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60629</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.txt.utf-8">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:14:35.235781</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T08:26:38.717954</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60625</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11740</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1e583f26cf0b4ad582e5740019be6c1d">
+          <rdf:Description rdf:nodeID="N646fe7cafb95486cb4fc2b253786d504">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:title>A senhora Rattazzi</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.html.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66902</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N76de9300bd354cd6a6de9560594e8feb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:42:53.607399</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-09-25</dcterms:issued>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19375/19375-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60045</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N48e7c4d0329c48959def212c23da5670">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-09-25T12:10:36</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30176</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N11afc41f44164475bfbb2a76ec4dea04">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:42:53.670387</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N635c50c7f53a455f95b5fbea54e6f320">
+        <rdf:value>Rattazzi, Marie, 1833-1902. Portugal à vol d'oiseau</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/6699">
+        <pgterms:alias>Corrêa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
+        <pgterms:alias>Correa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
+        <pgterms:alias>Correia Botelho, Camillo Castello Branco, visconde de</pgterms:alias>
+        <pgterms:alias>Branco, Camilo Ferreira Botelho Castelo</pgterms:alias>
+        <pgterms:alias>Botelho Castelo Branco, Camilo Ferreira</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1825</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
+        <pgterms:alias>Branco, Camilo Castelo</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</pgterms:deathdate>
+        <pgterms:name>Castelo Branco, Camilo</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:42:54.239398</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T08:26:39.561113</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65960</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136060</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1b2a20ab39e84205b2073e4e09748a03">
+          <rdf:Description rdf:nodeID="Nb72ed25177cd43bda8331849652fc3a6">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/6699">
-        <pgterms:alias>Branco, Camilo Castelo</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1825</pgterms:birthdate>
-        <pgterms:alias>Corrêa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</pgterms:deathdate>
-        <pgterms:alias>Botelho Castelo Branco, Camilo Ferreira</pgterms:alias>
-        <pgterms:name>Castelo Branco, Camilo</pgterms:name>
-        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
-        <pgterms:alias>Correa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
-        <pgterms:alias>Branco, Camilo Ferreira Botelho Castelo</pgterms:alias>
-        <pgterms:alias>Correia Botelho, Camillo Castello Branco, visconde de</pgterms:alias>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N194fa3b6cb20443d9ce24f340a54d9e4">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>DP</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</pgterms:downloads>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.html.gen">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:42:53.971415</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136068</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb8a904ef4702421b9a76f9053039e807">
+          <rdf:Description rdf:nodeID="N438d361a255a42649cc7e316e9203e6f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65643</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T08:26:38.392288</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf2236d9f9e884419b9b4d0e01e7f5295">
-        <rdf:value>Rattazzi, Marie, 1833-1902. Portugal à vol d'oiseau</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</pgterms:downloads>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N13e98bf54a3044589c07632bf713da3d">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
       </rdf:Description>
-    </dcterms:subject>
-    <dcterms:title>A senhora Rattazzi</dcterms:title>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19375.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45549</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf0304543c8ba4f6e95e22ba6e8169738">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T08:26:38.934732</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/19375"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N4d62b049c5d540f0a417893a59d2d4cb">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
+    </dcterms:language>
   </pgterms:ebook>
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
-  </cc:Work>
-  <rdf:Description rdf:about="http://pt.wikipedia.org/wiki/Camilo_Castelo_Branco">
-    <dcterms:description>pt.wikipedia</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Camilo_Castelo_Branco">
     <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pt.wikipedia.org/wiki/Camilo_Castelo_Branco">
+    <dcterms:description>pt.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
